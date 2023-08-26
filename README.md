@@ -1,8 +1,15 @@
 # Crypto Sleuth React App
 
-Created a cryptocurrency web app that enables real-time tracking of 100's of cryptos in a rank-wise order by their market capitalization.
+Created a cryptocurrency web app using create-react-app framework that enables real-time tracking of 100's of cryptos in a rank-wise order by their market capitalization.
 <br>
-For each crypto the web application includes up to the past 2 years of performance that can be useful for users in making informed investment decisions. 
+<br>
+For each crypto the web application includes: <br>
+ 1. the difference for last 1 hour, 24 hour, 7 days, 14 days, 30 days and 1 year <br>
+ 2. Also added a market high and low for that particular day <br>
+ 3. The Market Cap and Supply <br>
+ 
+also an about section for each cryptocurrency for users to understand better about it.
+
 
 Tech tools used: HTML, CSS, JavaScript, React.js, Axios, CoinGecko API.
 
