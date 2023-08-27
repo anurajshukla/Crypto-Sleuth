@@ -9,7 +9,7 @@
     align-items: center;
     background-color: #000000;
     box-shadow: 0px 0px 12px #1c1b1b;
-    border-radius: 8px;
+    border-radius: 5px;
     margin: 2rem 1rem;
     padding: .7rem 1rem;
     font-weight: 700;
@@ -25,7 +25,7 @@
     align-items: center;
     background-color: #000000;
     box-shadow: 0px 0px 12px #1c1b1b;
-    border-radius: 8px;
+    border-radius: 5px;
     margin: 2rem 1rem;
     padding: .7rem 1rem;
 }
