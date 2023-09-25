@@ -2,16 +2,14 @@ import axios from 'axios'
 import { useParams } from 'react-router-dom'
 import React, { useState, useEffect } from 'react'
 import DOMPurify from 'dompurify'
-
 import './Coin.css'
-
+import HistoryChart from '../components/HistoryChart'
 const Coin = () => {
 
     const params = useParams()
     const [coin, setCoin] = useState({})
 
     const url = `https://api.coingecko.com/api/v3/coins/${params.coinId}`
-
     useEffect(() => {
         axios.get(url).then((res) => {
             setCoin(res.data)
@@ -42,7 +40,6 @@ const Coin = () => {
                         </div>
                     </div>
                 </div>
-
                 <div className='content'>
                     <table>
                         <thead>
@@ -67,6 +64,7 @@ const Coin = () => {
                             </tr>
                         </tbody>
                     </table>
+                    <HistoryChart />
                 </div>
                 <div className='content'>
                     <div className='stats'>
